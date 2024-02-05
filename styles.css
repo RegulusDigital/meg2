@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+
+
+/* body */
+body {
+background-color: #EFE0DA;
+display: flex;
+flex-direction: column;
+min-height: 100vh; 
+margin: 0
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: #040607;
+  text-decoration-thickness: 5px;
+  text-decoration: underline;
+  text-decoration-color: #040607;
+  text-decoration-thickness: 5px;
+  background-color: #EFE0DA; 
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) 
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+ font-family: 'Poppins', sans-serif;
+}
+
+
+/* Nav-bar */
+navbar{
+  width: 20px;
+  padding: 15px;
+}
+
+.col-lg-7 img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-container {
+  margin-top: 150px;
+}
+
+
+.beige-navbar .navbar-nav .nav-link {
+  font-size: 18px;
+}
+
+.beige-navbar {
+  background-color:#ffffff;
+  padding: 10px;
+}
+
+.navbar-nav .nav-link {
+  background-color: white; 
+  color: black; 
+  border-radius: 5px; 
+  transition: background-color 0.3;
+  margin-right: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #f7d4d4; 
+  color: black;
+  }
+
+   .small-logo {
+    width: 40px; 
+    height: auto; 
+  }
+
+
+  /* Contact Page */
+.btn-blush-pink {
+  background-color:white;
+  border-radius: 0.90rem
+}
+
+.btn-blush-pink:hover {
+  background-color: #f7d4d4; 
+  color: black; 
+}
+
+.banner-image {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hero{
+  display: contents;
+  padding: 10%;
+}
+
+/* Footer */
+footer {
+  background-color: #fbf9f9;
+}
+
+.fixed-bottom{
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.custom-form {
+  background-color: #eaf0f5;
+  padding: 40px;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+
